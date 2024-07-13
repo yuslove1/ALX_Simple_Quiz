@@ -6,7 +6,7 @@ function checkAnswer(){
     let userAnswer = userChoice? userChoice.value : null;
 
     if (userAnswer === correctAnswer){
-      feedback.textContent = "Correct! Well done";
+      feedback.textContent = "Correct! Well done.";
     }else{
        feedback.textContent = "That's incorrect. Try again!";
     }
